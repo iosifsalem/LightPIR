@@ -1,0 +1,126 @@
+Results for lightning's large component on 13092019, version version Jan-20, 14:50
+
+LN snapshot has: #nodes = 4733, #channels = 51508, #strongly connected components = 2027
+largest component (cc 2004): #nodes = 2706, #channels = 45774
+network diameter = 7, computed in 5.14 minutes
+radii = [1, 2, 4]
+wrote APSP of largest component in lightning-APSP-largest-component-batch0.txt, in 7.05 minutes
+APSP read and processed in 52.74 minutes
+Iteration for computing min HD with core size 0
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 60. Duration for r=4: 2.91 minutes. paths_hit_by_high_deg_nodes[4] = 0, paths_not_hit_by_high_deg_nodes[4] = 1263992
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 219. Duration for r=2: 8.63 minutes. paths_hit_by_high_deg_nodes[2] = 0, paths_not_hit_by_high_deg_nodes[2] = 4679552
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 405. Duration for r=1: 2.19 minutes. paths_hit_by_high_deg_nodes[1] = 0, paths_not_hit_by_high_deg_nodes[1] = 1331626
+hitting sets computed in 1.1 hours
+connected components after removing high degree nodes: 1
+current HD = 389. core_to_HD: {0: 389}
+Iteration for computing min HD with core size 50
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 79. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1259738, paths_not_hit_by_high_deg_nodes[4] = 4254
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 220. Duration for r=2: 3.3 minutes. paths_hit_by_high_deg_nodes[2] = 4595211, paths_not_hit_by_high_deg_nodes[2] = 84341
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 405. Duration for r=1: 45.37 seconds. paths_hit_by_high_deg_nodes[1] = 1271853, paths_not_hit_by_high_deg_nodes[1] = 59773
+hitting sets computed in 1.28 hours
+connected components after removing high degree nodes: 425
+current HD = 320. core_to_HD: {0: 389, 50: 320}
+Iteration for computing min HD with core size 100
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 112. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263649, paths_not_hit_by_high_deg_nodes[4] = 343
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 228. Duration for r=2: 3.26 minutes. paths_hit_by_high_deg_nodes[2] = 4669139, paths_not_hit_by_high_deg_nodes[2] = 10413
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 412. Duration for r=1: 42.6 seconds. paths_hit_by_high_deg_nodes[1] = 1317503, paths_not_hit_by_high_deg_nodes[1] = 14123
+hitting sets computed in 1.43 hours
+connected components after removing high degree nodes: 620
+current HD = 228. core_to_HD: {0: 389, 50: 320, 100: 228}
+Iteration for computing min HD with core size 200
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 202. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263988, paths_not_hit_by_high_deg_nodes[4] = 4
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 273. Duration for r=2: 3.28 minutes. paths_hit_by_high_deg_nodes[2] = 4678249, paths_not_hit_by_high_deg_nodes[2] = 1303
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 440. Duration for r=1: 42.97 seconds. paths_hit_by_high_deg_nodes[1] = 1327220, paths_not_hit_by_high_deg_nodes[1] = 4406
+hitting sets computed in 1.57 hours
+connected components after removing high degree nodes: 814
+current HD = 267. core_to_HD: {0: 389, 200: 267, 50: 320, 100: 228}
+Iteration for computing min HD with core size 150
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 156. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263879, paths_not_hit_by_high_deg_nodes[4] = 113
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 246. Duration for r=2: 3.28 minutes. paths_hit_by_high_deg_nodes[2] = 4676517, paths_not_hit_by_high_deg_nodes[2] = 3035
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 423. Duration for r=1: 42.99 seconds. paths_hit_by_high_deg_nodes[1] = 1324732, paths_not_hit_by_high_deg_nodes[1] = 6894
+hitting sets computed in 1.72 hours
+connected components after removing high degree nodes: 722
+current HD = 244. core_to_HD: {0: 389, 50: 320, 100: 228, 150: 244, 'left margin': 100, 200: 267, 'right margin': 200}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 150
+Iteration for computing min HD with core size 125
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 132. Duration for r=4: 1.27 minutes. paths_hit_by_high_deg_nodes[4] = 1263795, paths_not_hit_by_high_deg_nodes[4] = 197
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 234. Duration for r=2: 3.33 minutes. paths_hit_by_high_deg_nodes[2] = 4673941, paths_not_hit_by_high_deg_nodes[2] = 5611
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 414. Duration for r=1: 43.83 seconds. paths_hit_by_high_deg_nodes[1] = 1322442, paths_not_hit_by_high_deg_nodes[1] = 9184
+hitting sets computed in 1.86 hours
+connected components after removing high degree nodes: 682
+current HD = 233. core_to_HD: {0: 389, 50: 320, 100: 228, 150: 244, 'left margin': 100, 200: 267, 125: 233, 'right margin': 150}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 125
+Iteration for computing min HD with core size 112
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 123. Duration for r=4: 1.23 minutes. paths_hit_by_high_deg_nodes[4] = 1263710, paths_not_hit_by_high_deg_nodes[4] = 282
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 232. Duration for r=2: 3.34 minutes. paths_hit_by_high_deg_nodes[2] = 4671069, paths_not_hit_by_high_deg_nodes[2] = 8483
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 414. Duration for r=1: 43.72 seconds. paths_hit_by_high_deg_nodes[1] = 1319479, paths_not_hit_by_high_deg_nodes[1] = 12147
+hitting sets computed in 2.01 hours
+connected components after removing high degree nodes: 643
+current HD = 231. core_to_HD: {0: 389, 112: 231, 50: 320, 100: 228, 150: 244, 'left margin': 100, 200: 267, 125: 233, 'right margin': 125}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 112
+Iteration for computing min HD with core size 106
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 117. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263704, paths_not_hit_by_high_deg_nodes[4] = 288
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 229. Duration for r=2: 3.27 minutes. paths_hit_by_high_deg_nodes[2] = 4670760, paths_not_hit_by_high_deg_nodes[2] = 8792
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 414. Duration for r=1: 42.32 seconds. paths_hit_by_high_deg_nodes[1] = 1318953, paths_not_hit_by_high_deg_nodes[1] = 12673
+hitting sets computed in 2.15 hours
+connected components after removing high degree nodes: 636
+current HD = 229. core_to_HD: {0: 389, 112: 231, 50: 320, 100: 228, 150: 244, 'left margin': 100, 200: 267, 106: 229, 125: 233, 'right margin': 112}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 106
+Iteration for computing min HD with core size 103
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 115. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263663, paths_not_hit_by_high_deg_nodes[4] = 329
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 228. Duration for r=2: 3.29 minutes. paths_hit_by_high_deg_nodes[2] = 4669601, paths_not_hit_by_high_deg_nodes[2] = 9951
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 412. Duration for r=1: 42.77 seconds. paths_hit_by_high_deg_nodes[1] = 1318045, paths_not_hit_by_high_deg_nodes[1] = 13581
+hitting sets computed in 2.3 hours
+connected components after removing high degree nodes: 631
+current HD = 228. core_to_HD: {0: 389, 112: 231, 50: 320, 100: 228, 150: 244, 'left margin': 100, 103: 228, 200: 267, 106: 229, 125: 233, 'right margin': 106}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 103
+Iteration for computing min HD with core size 101
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 113. Duration for r=4: 1.22 minutes. paths_hit_by_high_deg_nodes[4] = 1263651, paths_not_hit_by_high_deg_nodes[4] = 341
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 228. Duration for r=2: 3.25 minutes. paths_hit_by_high_deg_nodes[2] = 4669280, paths_not_hit_by_high_deg_nodes[2] = 10272
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 412. Duration for r=1: 42.66 seconds. paths_hit_by_high_deg_nodes[1] = 1317644, paths_not_hit_by_high_deg_nodes[1] = 13982
+hitting sets computed in 2.44 hours
+connected components after removing high degree nodes: 624
+current HD = 228. core_to_HD: {0: 389, 100: 228, 101: 228, 'left margin': 100, 103: 228, 200: 267, 106: 229, 112: 231, 50: 320, 150: 244, 125: 233, 'right margin': 103}
+core_to_HD['left margin'] = 100, core_to_HD['right margin'] = 101
+Iteration for computing min HD with core size 100
+For radius 4 exists path weight repetition is True
+For radius 4, the cover has size 112. Duration for r=4: 1.2 minutes. paths_hit_by_high_deg_nodes[4] = 1263649, paths_not_hit_by_high_deg_nodes[4] = 343
+For radius 2 exists path weight repetition is True
+For radius 2, the cover has size 228. Duration for r=2: 3.28 minutes. paths_hit_by_high_deg_nodes[2] = 4669139, paths_not_hit_by_high_deg_nodes[2] = 10413
+For radius 1 exists path weight repetition is True
+For radius 1, the cover has size 412. Duration for r=1: 42.5 seconds. paths_hit_by_high_deg_nodes[1] = 1317503, paths_not_hit_by_high_deg_nodes[1] = 14123
+hitting sets computed in 2.59 hours
+connected components after removing high degree nodes: 620
+current HD = 228. core_to_HD: {0: 389, 100: 228, 101: 228, 'left margin': 100, 103: 228, 200: 267, 106: 229, 'loop detected': True, 112: 231, 50: 320, 150: 244, 125: 233, 'right margin': 101}
+max_hub_size = 304
+HD for the large component = 228 (base = 100), computed in 2.64 hours
